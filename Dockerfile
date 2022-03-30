@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15.3
 
 LABEL org.opencontainers.image.title="Nerd Fonts Patcher" \
       org.opencontainers.image.description="Patches developer targeted fonts with a high number of glyphs (icons)." \
